@@ -17,7 +17,8 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/user-auth-project",
+            "outputPath": "dist/Angular-and-Asp.net-project",
+            "baseHref": "/Angular-and-Asp.net-project/",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
